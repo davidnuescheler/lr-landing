@@ -1,5 +1,5 @@
-![Adobe](/adobe.png "") Adobe Premiere Rush
-›  Adobe Creative Cloud  ›  Adobe Premiere Rush
+Adobe Lightroom
+›  Adobe Creative Cloud  ›  Adobe Lightroom
 
 ---
 

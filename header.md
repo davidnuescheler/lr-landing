@@ -1,11 +1,9 @@
-![Character Animator](/ch.png "") Adobe Character Animator
+![Lightroom](/lr.svg "") Lightroom
 
 [&#9776;](#menu)
 
 ---
 
 [&times;](#)
-- [What's new](https://helpx.adobe.com/adobe-character-animator/using/whats-new.html)
-- [Video & Audio](https://www.adobe.com/creativecloud/video/pro-video-tools.html)
-- [Showcase](https://www.adobe.com/creativecloud/video/customer-stories.html)
-- [Learn & Support](https://helpx.adobe.com/support/character-animator.html)
+- [What's new](https://helpx.adobe.com/https://helpx.adobe.com/lightroom-cc/using/whats-new.html)
+- [Photo Editing](https://www.adobe.com/products/photoshop-lightroom/edit-photos.html)
