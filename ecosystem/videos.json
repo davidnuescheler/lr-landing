@@ -1,0 +1,598 @@
+[
+	
+	{	
+		"id":"23026",
+		"title":"Make landscapes pop with edits on selected parts",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/220626f7-492d-4e45-adf7-986aaec06324/f56b6b01_960x540.jpg",
+		"runtime":97,
+		"runtimeReadable":"1 min 37 sec",
+		"platform":"desktop",
+		"next": [ "23027", "23028" ],
+		"nextHeadline": "More landscape photo tips from Chris Burkard",
+		"timestamps": [
+			{
+				"title":"Enable lens correction",
+				"runtime":25,
+				"runtimeReadable":"0:25"
+			},
+			{
+				"title":"Fix light and color",
+				"runtime":31,
+				"runtimeReadable":"0:31"
+			},
+			{
+				"title":"Bring out details",
+				"runtime":49,
+				"runtimeReadable":"0:49"
+			},
+			{
+				"title":"Apply selective edits",
+				"runtime":61,
+				"runtimeReadable":"1:01"
+			},
+			{
+				"title":"Retouch flaws",
+				"runtime":73,
+				"runtimeReadable":"1:13"
+			}
+		]
+	},
+	
+	{
+		"id":"23027",
+		"ref":"Landscape with Chris Burkard",
+		"title":"Edit light and color in landscapes",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/4eb43e1e-6011-4f0d-a685-ff46df4d48ad/e41edad4_960x540.jpg",
+		"runtime":76,
+		"runtimeReadable":"1 min 16 sec",
+		"platform":"desktop",
+		"next": [ "23028", "20877" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Apply a color profile",
+				"runtime":24,
+				"runtimeReadable":"0:24"
+			},
+			{
+				"title":"Make basic adjustments",
+				"runtime":31,
+				"runtimeReadable":"0:31"
+			},
+			{
+				"title":"Straighten the horizon",
+				"runtime":45,
+				"runtimeReadable":"0:45"
+			},
+			{
+				"title":"Make selective edits",
+				"runtime":53,
+				"runtimeReadable":"0:53"
+			}
+		]
+	},
+	
+	{
+		"id":"23028",
+		"title":"Creating landscape photos in Lr mobile",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/1041a325-b1db-41cc-bf6c-e397ce1200d7/621e69be_960x540.jpg",
+		"runtime":81,
+		"runtimeReadable":"1 min 21 sec",
+		"platform":"mobile",
+		"next": [ "20877", "20880" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Apply a color profile",
+				"runtime":22,
+				"runtimeReadable":"0:22"
+			},
+			{
+				"title":"Apply a preset",
+				"runtime":31,
+				"runtimeReadable":"0:31"
+			},
+			{
+				"title":"Adjust light",
+				"runtime":40,
+				"runtimeReadable":"0:40"
+			},
+			{
+				"title":"Make selective edits",
+				"runtime":57,
+				"runtimeReadable":"0:57"
+			}
+		]
+	},
+	
+	{
+		"id":"22673",
+		"ref":"Travel with Pei Ketron",
+		"title":"Enhance color and light to capture the moment",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/b738699a-f35e-4d42-befe-9440c08b4a7f/f3358caa_960x540.jpg",
+		"runtime":87,
+		"runtimeReadable":"1 min 27 sec",
+		"next": [ "22674", "22672" ],
+		"nextHeadline": "More travel photo tips from Pei Ketron",
+		"timestamps": [
+			{
+				"title":"Start with Auto settings",
+				"runtime":28,
+				"runtimeReadable":"0:28"
+			},
+			{
+				"title":"Fine tune light and color",
+				"runtime":36,
+				"runtimeReadable":"0:36"
+			},
+			{
+				"title":"Adjust specific colors",
+				"runtime":51,
+				"runtimeReadable":"0:51"
+			},
+			{
+				"title":"Apply adjustments to specific areas",
+				"runtime":61,
+				"runtimeReadable":"1:01"
+			}
+		]
+	},
+	
+	{
+		"id":"22674",
+		"title":"Fix perspective and lighting in photos of architecture",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/8ddeede1-bf71-43ba-8ec6-84be90562813/be2bed52_960x540.jpg",
+		"runtime":75,
+		"runtimeReadable":"1 min 15 sec",
+		"next": [ "22672", "20877" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Fix perspective",
+				"runtime":24,
+				"runtimeReadable":"0:24"
+			},
+			{
+				"title":"Quickly fix light and color",
+				"runtime":36,
+				"runtimeReadable":"0:36"
+			},
+			{
+				"title":"Fine tune exposure, whites, and blacks",
+				"runtime":42,
+				"runtimeReadable":"0:42"
+			},
+			{
+				"title":"Retouch flaws",
+				"runtime":50,
+				"runtimeReadable":"0:50"
+			}
+		]
+	},
+	
+	{
+		"id":"22672",
+		"title":"Using Lr mobile to edit travel candids",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/3dbf9e98-0bac-490d-827c-ccabb60905af/c909d517_960x540.jpg",
+		"runtime":72,
+		"runtimeReadable":"1 min 12 sec",
+		"next": [ "20877", "20880" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Start with a Profile",
+				"runtime":26,
+				"runtimeReadable":"0:26"
+			},
+			{
+				"title":"Fine-tune light",
+				"runtime":34,
+				"runtimeReadable":"0:34"
+			},
+			{
+				"title":"Adjust luminance and hue of specific colors",
+				"runtime":44,
+				"runtimeReadable":"0:44"
+			},
+			{
+				"title":"Share your photo",
+				"runtime":56,
+				"runtimeReadable":"0:56"
+			}
+		]
+	},
+	
+	{
+		"id":"23657",
+		"ref":"Portrait with Jared Soares",
+		"title":"Correct lens distortion and refine details in portraits",
+		"image":"https://images-tv.adobe.com/mpcv3/17da0fa7-490c-4daa-a14e-9507b290149a/5b3c50aa-b39c-4ea1-bbe2-5939281c156e/00263556ef394e6cbe4efdbc955743a4_1557534724-960x540.jpg",
+		"runtime":90,
+		"runtimeReadable":"1 min 30 sec",
+		"next": [ "23661", "23656" ],
+		"nextHeadline": "More portrait photo tips from Jared Soares",
+		"timestamps": [
+			{
+				"title":"Crop and compose",
+				"runtime":27,
+				"runtimeReadable":"0:27"
+			},
+			{
+				"title":"Adjust light",
+				"runtime":40,
+				"runtimeReadable":"0:40"
+			},
+			{
+				"title":"Fine-tune color balance",
+				"runtime":54,
+				"runtimeReadable":"0:54"
+			},
+			{
+				"title":"Remove distractions",
+				"runtime":67,
+				"runtimeReadable":"1:07"
+			}
+		]
+	},
+	
+	{
+		"id":"23661",
+		"title":"Create the look of film photos",
+		"image":"https://images-tv.adobe.com/mpcv3/17da0fa7-490c-4daa-a14e-9507b290149a/171f066e-1b57-4b0c-abe5-7cb70aa64035/a5b9fc7591cc4a9a8585e271d3e0617d_1557534776-960x540.jpg",
+		"runtime":80,
+		"runtimeReadable":"1 min 20 sec",
+		"next": [ "23656", "20877" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Create a low contrast look",
+				"runtime":26,
+				"runtimeReadable":"0:26"
+			},
+			{
+				"title":"Adjust white balance",
+				"runtime":39,
+				"runtimeReadable":"0:39"
+			},
+			{
+				"title":"Edit specific colors",
+				"runtime":47,
+				"runtimeReadable":"0:47"
+			},
+			{
+				"title":"Soften details",
+				"runtime":60,
+				"runtimeReadable":"1:00"
+			}
+		]
+	},
+	
+	{
+		"id":"23656",
+		"title":"Shoot, edit, and share portraits on mobile",
+		"image":"https://images-tv.adobe.com/mpcv3/17da0fa7-490c-4daa-a14e-9507b290149a/6e134bd7-2af2-49af-9b39-a0732aaf3736/4e807dc0885a43d1b4fdec08bbe1eb72_1557534834-960x540.jpg",
+		"runtime":79,
+		"runtimeReadable":"1 min 19 sec",
+		"next": [ "20877", "20880" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Start with a preset",
+				"runtime":27,
+				"runtimeReadable":"0:27"
+			},
+			{
+				"title":"Fine-tune light",
+				"runtime":38,
+				"runtimeReadable":"0:38"
+			},
+			{
+				"title":"Adjust color balance",
+				"runtime":49,
+				"runtimeReadable":"0:49"
+			},
+			{
+				"title":"Share to social media",
+				"runtime":61,
+				"runtimeReadable":"1:01"
+			}
+		]
+	},
+	
+	{
+		"id":"26294",
+		"ref":"Street with Gustavo Minas",
+		"title":"Enhance mood and contrast",
+		"image":"https://images-tv.adobe.com/mpcv3/17da0fa7-490c-4daa-a14e-9507b290149a/81278a6a-be8c-4206-9d60-fca830f359d4/a29bbc34f1fe4c89a8a53d3b4d591741_1559095345-960x540.jpg",
+		"runtime":65,
+		"runtimeReadable":"1 min 5 sec",
+		"next": [ "26296", "26295" ],
+		"nextHeadline": "More street photo tips from Gustavo Minas",
+		"timestamps": [
+			{
+				"title":"Start with a Profile",
+				"runtime":26,
+				"runtimeReadable":"0:26"
+			},
+			{
+				"title":"Correct perspective",
+				"runtime":32,
+				"runtimeReadable":"0:32"
+			},
+			{
+				"title":"Adjust highlights and shadows",
+				"runtime":38,
+				"runtimeReadable":"0:38"
+			},
+			{
+				"title":"Use Curves to fine-tune contrast",
+				"runtime":49,
+				"runtimeReadable":"0:49"
+			}
+		]
+	},
+	
+	{
+		"id":"26296",
+		"title":"Create a dynamic silhouette with selective contrast",
+		"image":"https://images-tv.adobe.com/mpcv3/17da0fa7-490c-4daa-a14e-9507b290149a/38967b23-05e5-4a4a-aaae-62bb1f508cba/e6bd9c690b584f38bae643db27f135df_1559095280-960x540.jpg",
+		"runtime":67,
+		"runtimeReadable":"1 min 7 sec",
+		"next": [ "26295", "26297" ],
+		"nextHeadline": "More street photo tips from Gustavo Minas",
+		"timestamps": [
+			{
+				"title":"Adjust highlights and shadows",
+				"runtime":23,
+				"runtimeReadable":"0:23"
+			},
+			{
+				"title":"Edit specific colors",
+				"runtime":32,
+				"runtimeReadable":"0:32"
+			},
+			{
+				"title":"Reveal details in select areas",
+				"runtime":41,
+				"runtimeReadable":"0:41"
+			},
+			{
+				"title":"Add a vignette",
+				"runtime":54,
+				"runtimeReadable":"0:54"
+			}
+		]
+	},
+	
+	{
+		"id":"26295",
+		"title":"Edit light and color to draw attention to your subject",
+		"image":"https://images-tv.adobe.com/mpcv3/17da0fa7-490c-4daa-a14e-9507b290149a/e298b9c5-6e03-447d-abbe-32415d3ef4fb/3a0958e02e7c4b41adf4e7efafd49321_1559095228-960x540.jpg",
+		"runtime":76,
+		"runtimeReadable":"1 min 16 sec",
+		"next": [ "26297", "20877" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Brighten shadows",
+				"runtime":26,
+				"runtimeReadable":"0:26"
+			},
+			{
+				"title":"Edit select areas",
+				"runtime":34,
+				"runtimeReadable":"0:34"
+			},
+			{
+				"title":"Fine-tune specific colors",
+				"runtime":43,
+				"runtimeReadable":"0:43"
+			}
+		]
+	},
+	
+	{
+		"id":"26297",
+		"title":"Shoot and edit low-light night photos on mobile",
+		"image":"https://images-tv.adobe.com/mpcv3/17da0fa7-490c-4daa-a14e-9507b290149a/bade6fea-fe65-47cc-b032-8d235832a418/317a4f391f034351bcf3b71047f74223_1559095175-960x540.jpg",
+		"runtime":68,
+		"runtimeReadable":"1 min 8 sec",
+		"next": [ "20877", "20880" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Start with a custom preset",
+				"runtime":23,
+				"runtimeReadable":"0:23"
+			},
+			{
+				"title":"Adjust shadows and highlights",
+				"runtime":33,
+				"runtimeReadable":"0:33"
+			},
+			{
+				"title":"Use Curves to fine-tune contrast",
+				"runtime":45,
+				"runtimeReadable":"0:45"
+			},
+			{
+				"title":"Reduce noise",
+				"runtime":53,
+				"runtimeReadable":"0:53"
+			}
+		]
+	},
+	
+	{
+		"id":"25237t1",
+		"ref":"Food with Susann Probst & Yannic Schon",
+		"title":"Fix perspective and correct tones in top-down food photos",
+		"image":"https://images-tv.adobe.com/mpcv3/ab57fa00-6df8-4df5-a0b2-9c9a6b88b736/9e583318-f556-4301-acfc-5cfe1c937525/af889223249149f8a8ba5caa9b42c9b6_1549999138-960x540.jpg",
+		"runtime":80,
+		"runtimeReadable":"1 min 20 sec",
+		"next": [ "25236t1", "25238t1" ],
+		"nextHeadline": "More food photo tips from Susann and Yannic",
+		"timestamps": [
+			{
+				"title":"Correct perspective",
+				"runtime":26,
+				"runtimeReadable":"0:26"
+			},
+			{
+				"title":"Adjust exposure and contrast",
+				"runtime":32,
+				"runtimeReadable":"0:32"
+			},
+			{
+				"title":"Darken background areas",
+				"runtime":41,
+				"runtimeReadable":"0:41"
+			},
+			{
+				"title":"Fine-tune specific areas",
+				"runtime":54,
+				"runtimeReadable":"0:54"
+			}
+		]
+	},
+	
+	
+	{
+		"id":"25236t1",
+		"title":"Create a custom preset to quickly re-use favorite edits",
+		"image":"https://images-tv.adobe.com/mpcv3/ab57fa00-6df8-4df5-a0b2-9c9a6b88b736/cec9b4ea-17f9-4850-8b61-d4a877f07751/be6546a2d88f4ad28d46733bf8ece536_1549999371-960x540.jpg",
+		"runtime":88,
+		"runtimeReadable":"1 min 28 sec",
+		"next": [ "25238t1", "20877" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Adjust light and color",
+				"runtime":22,
+				"runtimeReadable":"0:22"
+			},
+			{
+				"title":"Edit specific colors",
+				"runtime":37,
+				"runtimeReadable":"0:37"
+			},
+			{
+				"title":"Save settings as a custom preset",
+				"runtime":53,
+				"runtimeReadable":"0:53"
+			},
+			{
+				"title":"Apply the preset for a consistent style",
+				"runtime":67,
+				"runtimeReadable":"1:07"
+			}
+		]
+	},
+	
+	
+	{
+		"id":"25238t1",
+		"title":"Shoot and edit food photos with Lightroom for mobile",
+		"image":"https://images-tv.adobe.com/mpcv3/ab57fa00-6df8-4df5-a0b2-9c9a6b88b736/56c8fe9d-50b6-4eb4-b9c6-e11011b7a704/fb52d2e2739b40558d0691b3ee039564_1549999524-960x540.jpg",
+		"runtime":70,
+		"runtimeReadable":"1 min 10 sec",
+		"next": [ "20877", "20880" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Start with a preset",
+				"runtime":23,
+				"runtimeReadable":"0:23"
+			},
+			{
+				"title":"Adjust light and color",
+				"runtime":33,
+				"runtimeReadable":"0:33"
+			},
+			{
+				"title":"Share to social media",
+				"runtime":53,
+				"runtimeReadable":"0:53"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"id":"20877",
+		"title":"Import photos into your library",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/108f4dba-993b-46de-8e4b-1f86b2f7cf48/7830ab8f_960x540.jpg",
+		"runtime":301,
+		"runtimeReadable":"5 min 1 sec",
+		"next": [ "20880", "20889" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Selecting the import button",
+				"runtime":47,
+				"runtimeReadable":"0:47"
+			},
+			{
+				"title":"Importing from a camera or memory card",
+				"runtime":56,
+				"runtimeReadable":"0:56"
+			},
+			{
+				"title":"Importing from computer or external hard drive",
+				"runtime":68,
+				"runtimeReadable":"1:08"
+			},
+			{
+				"title":"Reviewing photos for import",
+				"runtime":102,
+				"runtimeReadable":"1:42"
+			},
+			{
+				"title":"Adding photos to an album when importing",
+				"runtime":150,
+				"runtimeReadable":"2:30"
+			}
+		]
+	},
+	
+	{
+		"id":"20880",
+		"title":"Get to know the editing capabilities in Lightroom",
+		"image":"https://images-tv.adobe.com/avp/vr/b758b4c4-2a74-41f4-8e67-e2f2eab83c6a/6111e9ef-4995-4d75-961c-3c9315f7991c/e138cd83_960x540.jpg",
+		"runtime":301,
+		"runtimeReadable":"5 min 1 sec",
+		"next": [ "20889", "20890" ],
+		"nextHeadline": "More tips for new Lightroom users",
+		"timestamps": [
+			{
+				"title":"Selecting the import button",
+				"runtime":47,
+				"runtimeReadable":"0:47"
+			},
+			{
+				"title":"Importing from a camera or memory card",
+				"runtime":56,
+				"runtimeReadable":"0:56"
+			},
+			{
+				"title":"Importing from computer or external hard drive",
+				"runtime":68,
+				"runtimeReadable":"1:08"
+			},
+			{
+				"title":"Reviewing photos for import",
+				"runtime":102,
+				"runtimeReadable":"1:42"
+			},
+			{
+				"title":"Adding photos to an album when importing",
+				"runtime":150,
+				"runtimeReadable":"2:30"
+			}
+		]
+	}
+
+]
+
