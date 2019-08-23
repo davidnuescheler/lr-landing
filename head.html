@@ -73,7 +73,7 @@
       video=videoData.find((v) => { return (v.ref == name)});
       var inner="";
       if (video) {
-        inner=`<h3>${video.title}</h3><p><span class="time">${video.runtimeReadable}</span><span class="platform">${video.platform}</span></p><h4>Skip to an edit</h4><div class="edits">`;
+        inner=`<img src="${video.image}"><h3>${video.title}</h3><p><span class="time">${video.runtimeReadable}</span><span class="platform">${video.platform}</span></p><h4>Skip to an edit</h4><div class="edits">`;
         video.timestamps.forEach((e)=>{ inner+=`<p><span class="timestamp-title">${e.title}</span><span class="timestamp">${e.runtimeReadable}</span></p>` })
         inner+=`</div><h4>${video.nextHeadline}</h4>`;
         var nextVideo=videoData.find((v) => { return (v.id == video.next[0])});
