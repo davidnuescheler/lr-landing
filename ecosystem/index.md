@@ -30,37 +30,12 @@ data-videos-source: videos.json
 
 ## Dive deeper into Lightroom
 
-- ### Import photos into your library
-  5 min
-  Lightroom for Desktop
- 
-- ### Get to know the editing capabilities in Lightroom
-  5 min
-  Lightroom for Desktop
- 
-- ### Apply an edit to a specific area of your photo using the Brush tool
-  5 min
-  Lightroom for Desktop
- 
-- ### Blend away unwanted content from your photo with the Healing Brush
-  5 min
-  Lightroom for Desktop
- 
-- ### Edit parts of a photo with Radial Gradients
-  5 min
-  Lightroom for Desktop
- 
-- ### Get to know the editing capabilities in Lightroom
-  5 min
-  Lightroom for Desktop
- 
-- ### Apply an edit to a specific area of your photo using the Brush tool
-  5 min
-  Lightroom for Desktop
- 
-- ### Blend away unwanted content from your photo with the Healing Brush
-  5 min
-  Lightroom for Desktop
+- Import photos into your library
+- Get to know the editing capabilities in Lightroom
+- Creating landscape photos in Lr mobile
+- Fix perspective and lighting in photos of architecture
+- Using Lr mobile to edit travel candids
+- Get to know the editing capabilities in Lightroom
 
 ---
 class: grey

@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <script src="/scrani.js"></script>
+<script src="/js/video.js"></script>
 <script>
   function removeHeaderAndFooter () {
     // workaound until the ESI is fixed
@@ -11,100 +12,17 @@
     if (footer.innerHTML == "/footer.plain.html") footer.innerHTML = "";
   }
 
-  function videoSwitcher() {
-    var div=document.querySelector(".video-switcher");
-    if (div) {
-      var imgs=div.querySelectorAll("ul li img")
-      var inner="";
-      imgs.forEach((e) => {
-        e.parentNode.onclick=selectVideo;
-        var first=e.alt.split(" ")[0];
-        var rest=e.alt.substring(first.length);
-        inner+=`<li>${first}<span class="long">${rest}</span></li>`;
-      })
-      var ul=div.appendChild(document.createElement("ul"));
-      ul.innerHTML=inner;
-      Array.from(ul.children).forEach((e)=>{e.onclick=selectVideo});
-    }
-  }
 
-  function selectVideo(e) {
-    var index=0;
-    if (e) {
-      var sib=e.currentTarget;
-      while((sib = sib.previousElementSibling) != null) index++;
-    } else {
-      index=0;
-    }
-
-    var uls=document.querySelectorAll(".video-switcher ul");
-    uls.forEach((ul) => {
-      lis=Array.from(ul.children);
-      lis.forEach((li, i) => {
-        if (i==index) li.classList.add("selected")
-        else li.classList.remove("selected");
-      }) 
-    } );
-    showSelectedVideo();
-  }
-
-  function loadVideos() {
-    if (!videoData.length) {
-      var xhr = new XMLHttpRequest();
-      var url = "videos.json";
-
-      xhr.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-              console.log(this.responseText);
-              videoData = JSON.parse(this.responseText);
-              showSelectedVideo();
-          }
-      };
-      xhr.open("GET", url, true);
-      xhr.send();
-    }
-  }
-
-  function showSelectedVideo() {
-    var name=document.querySelector(".video-switcher .selected img").alt;
-    var video={};
-    
-    if (videoData.length) {
-      video=videoData.find((v) => { return (v.ref == name)});
-      var inner="";
-      if (video) {
-        inner=`<img src="${video.image}"><h3>${video.title}</h3><p><span class="time">${video.runtimeReadable}</span><span class="platform">${video.platform}</span></p><h4>Skip to an edit</h4><div class="edits">`;
-        video.timestamps.forEach((e)=>{ inner+=`<p><span class="timestamp-title">${e.title}</span><span class="timestamp">${e.runtimeReadable}</span></p>` })
-        inner+=`</div><h4>${video.nextHeadline}</h4>`;
-        var nextVideo=videoData.find((v) => { return (v.id == video.next[0])});
-        inner+=`<div class="next-video"><img src="${nextVideo.image}"</h4><p class="next-title">${nextVideo.title}</p><p class="next-runtime">${nextVideo.runtimeReadable}</p></div>`;
-        inner+=`</div>`;
-      }
-
-      var videoDetails=document.querySelector(".video-switcher div.video-details");
-      if (!videoDetails) {
-        videoDetails=document.querySelector(".video-switcher").appendChild(document.createElement("div"));
-        videoDetails.classList.add("video-details");   
-      }
-      videoDetails.innerHTML=inner;
-    }    
-  }
-
-  var videoData=[];
-
-  window.onload = function() {
+  window.addEventListener("load", (e) => {
     removeHeaderAndFooter();
-    videoSwitcher();
-    loadVideos();
-    selectVideo();
     scrani.onload();
-  }
+  })
 
-  window.onhashchange = function() {
+  window.addEventListener("hashchange",(e) => {
     if (window.location.hash === "#menu") {
       document.querySelector("header div:nth-child(2)").style="display:block";
     } else {
       document.querySelector("header div:nth-child(2)").style="";
     }
-  }
+  })
 </script>
