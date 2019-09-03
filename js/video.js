@@ -7,7 +7,7 @@ function videoSwitcher() {
         e.parentNode.onclick=selectVideo;
         var first=e.alt.split(" ")[0];
         var rest=e.alt.substring(first.length);
-        inner+=`<li>${first}<span class="long">${rest}</span></li>`;
+        inner+=`<li>${first}<br><span class="long">${rest}</span></li>`;
       })
       var ul=div.appendChild(document.createElement("ul"));
       ul.innerHTML=inner;

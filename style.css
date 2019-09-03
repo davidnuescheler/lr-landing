@@ -333,62 +333,6 @@ div.default {
         line-height: 1.7;    
     }
    
-    div.video-switcher .video-details .video {
-        background-color: black;
-        height: unset;
-        width: 100%;
-    }
-
-    div.video-switcher .video-details .video>img {
-        width: 100%;
-        height: unset;
-        object-fit: contain;
-    }
-    
-    div.video-switcher .video-details {
-        display: grid;
-        grid-template-areas: "head head"
-                             "img  edits"
-                             "img  next";
-    }
-        
-    div.video-switcher ul:first-of-type {
-        display: flex;
-    }
-
-    div.video-switcher ul li {
-        width:20%;
-    }
-        
-    div.video-switcher ul li img {
-        object-fit: cover;
-        width: 100%;
-        height: 150px;
-        border-width: 0;
-        box-sizing: border-box;
-    }
-
-    div.video-switcher ul li .long {
-        display: inline;
-    }
-    
-    
-    div.video-switcher ul:first-of-type li.selected img {
-        border: #2680EB 3px solid;
-    }
-
-    div.video-switcher ul:first-of-type li img {
-        border-radius: 5px;
-    }
-
-    
-    div.video-switcher ul:first-of-type li {
-        display: inline-block;
-
-    } 
-    
-    
-
 }
 
 @media (min-width:900px) {
@@ -453,29 +397,123 @@ div.video-switcher .video-details .next-video img {
 
 div.video-switcher .video-details {
     display: grid;
-    grid-template-areas: "head"
-                         "img"
+    grid-template-areas: "img"
+                         "head"
+                         "runtime"
                          "edits"
+                         "nexttitle"
                          "next";
+    color: #777;
 }
 
 div.video-switcher .video-details .video {
     grid-area: img;
+    min-width: 50%;
 }
 
 div.video-switcher .video-details>h3{
     grid-area: head;
+    color: #333;
+    font-size: 24px;
+    padding: 0 45px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 24px 0 0 0;
+}
+
+div.video-switcher .video-details>p{
+    padding: 0 45px;
+    grid-area: runtime;
+    text-align: left;
+    margin: 0;
+}
+
+div.video-switcher .video-details>h4{
+    padding: 20px 45px;
+    grid-area: nexttitle;
+    text-align: left;
+    margin: 0;
 }
 
 div.video-switcher .video-details .edits{
     grid-area: edits;
+    padding: 0 45px;
+    text-align: left;
 }
+
+div.video-switcher .video-details h4 {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 12px 0 8px 0;
+}
+
+div.video-switcher .video-details .edits p {
+    padding: 8px 0;
+    color: #6e6e6e;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
 
 div.video-switcher .video-details .next-video{
     grid-area: next;
+    margin: 0 45px;
+    text-align: left;
+    display: grid;
+    grid-template-areas: "img title"
+                         "img runtime";
+    border: 1px solid grey;
+    border-radius: 4px;
 }
 
-@media (min-width:600px) {
+div.video-switcher .video-details .next-video img{
+    grid-area: img;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+div.video-switcher .video-details .next-video p {
+    margin: 0;
+}
+
+div.video-switcher .video-details .next-video .next-title{
+    grid-area: title;
+    text-justify: bottom;
+    padding-right: 10px;
+}
+
+div.video-switcher .video-details .next-video .next-runtime{
+    grid-area: runtime;
+    padding-right: 10px;
+}
+
+
+div.video-switcher ul:nth-of-type(2) li {
+    border-bottom: 1px black solid;
+    color: #888;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+div.video-switcher ul:nth-of-type(2) li.selected {
+    border-bottom: 3px black solid;
+    color: #333;
+    font-weight: 700;
+}
+
+
+@media (min-width:900px) {
 
     /* Desktop */
    
@@ -487,15 +525,17 @@ div.video-switcher .video-details .next-video{
 
     div.video-switcher .video-details .video>img {
         width: 100%;
-        height: unset;
-        object-fit: contain;
+        height: 100%;
+        object-fit: cover;
     }
     
     div.video-switcher .video-details {
         display: grid;
-        grid-template-areas: "head head"
-                             "img  edits"
-                             "img  next";
+        grid-template-areas: "img head"
+                             "img runtime"
+                             "img edits"
+                             "img nexttitle"                         
+                             "img next";
     }
         
     div.video-switcher ul:first-of-type {
@@ -503,7 +543,7 @@ div.video-switcher .video-details .next-video{
     }
 
     div.video-switcher ul li {
-        width:20%;
+        width: 20%;
     }
         
     div.video-switcher ul li img {
@@ -542,8 +582,8 @@ Video Card Carousel
 ------------------ */
 
 div.videocard img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -561,7 +601,8 @@ div.video-card-carousel li {
 div.videocard {
     display: grid;
     width: 300px;
-    grid-template-areas: "image desc";
+    height: 300px;
+    grid-template-areas: "image" "desc";
     text-align: left;
     border-radius: 5px;
     border: 1px solid grey;
@@ -579,8 +620,8 @@ div.videocard p {
 
 div.videocard .video {
     grid-area: image;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
 
 div.videocard .desc {
