@@ -211,8 +211,8 @@ header {
 
 header img {
     height: 1em;
-    padding-right: 5px;
-    padding-left: 2
+    float: left;
+    padding: 5px 5px 0 0;
 }
 
 header p {
