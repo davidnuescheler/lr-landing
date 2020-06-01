@@ -8,7 +8,7 @@ The cloud-based service for people who love photography, Lightroom gives you eve
 
 ---
 
-### Without Lightroom for mobile, you can capture, edit, organize, and share photos on your smartphone or tablet.
+### With Lightroom for mobile, you can capture, edit, organize, and share photos on your smartphone or tablet.
 
 ## See all you can do with your photos — at your desk or on the go.
 Create incredible photos anywhere with Lightroom and 1TB of cloud storage. The app offers powerful photo editing features in an easy-to-use interface. Adjust your full-resolution shots and have both your originals and edits backed up to the cloud. Organize with searchable keywords that are automatically applied without the hassle of tagging. And easily share and showcase your photos in fun ways.
